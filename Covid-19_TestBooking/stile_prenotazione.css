@@ -1,0 +1,63 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+  body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  #prenotazione{
+    width: 400px;
+  }
+  
+  input {
+    padding: 3px;
+    box-shadow: 3px 3px 5px grey;
+    font-size: 14px;
+    font-weight: 600;
+    width: 300px;
+  }
+
+  label {
+    color: #;
+    font-weight: bold;
+    width: 130px;
+    float: left;
+  
+  }
+  label:after { content: ": " }
+
+  #prenotazione2 {
+    width: 500px;
+  }
+  
+  #prenotazione2 p {
+    margin-top: 20px;
+  }
+
+  #button {
+    padding: 10px;
+    border: 1px solid gray;
+    background-color:#;
+    border-radius: 5px;
+    font: inherit;
+  }
+
+
+  #button:focus {
+    outline: 2px solid gray;
+    font-weight: bold;
+    color: white;
+  }
+
+  #button:hover {
+    background-color: ;
+    box-shadow: 3px 3px 5px grey;
+  }
+select {
+  font-weight: bold;
+}
+  
